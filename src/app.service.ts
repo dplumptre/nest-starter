@@ -12,7 +12,7 @@ export class AppService {
 
   getHello(): string {
 
-    return 'Hello World!' + this.userData({ name: 'John', age: 'thirty' });
+    return 'Hello World now!' + this.userData({ name: 'John', age: 'thirty' });
   }
 
 
