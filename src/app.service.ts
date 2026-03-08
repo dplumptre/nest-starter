@@ -1,8 +1,15 @@
 import { Injectable } from '@nestjs/common';
 
+
+
 @Injectable()
 export class AppService {
+
+  private appName: string = 'Nest';
   getHello(): string {
-    return 'Hello World now!';
+    return `${this.appName} is the new api now!`;
   }
+
+
+
 }
