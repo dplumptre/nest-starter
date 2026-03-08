@@ -7,11 +7,9 @@ export class AppService {
 
   private appName: string = 'Nest';
   getHello(): string {
-    return `${this.appName} Hello World now!`;
+    return `${this.appName} is the new api now!`;
   }
 
-  getAppName(): string {
-    return 44;
-  }
+
 
 }
